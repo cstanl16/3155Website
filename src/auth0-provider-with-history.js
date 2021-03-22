@@ -6,7 +6,7 @@ const Auth0ProviderWithHistory = ({ children }) => {
     const history = useHistory();
     //const domainVar = process.env.REACT_APP_AUTH0_DOMAIN;
     //const clientIdVar = process.env.REACT_APP_AUTH0_CLIENT_ID;
-    const domain = 'dev-3ylt35nh.us.auth0.com';
+    const domain = 'https://website3155-smi4p.ondigitalocean.app/';
     const clientId = 'PkJFJGyBpPfPSSrv1MvrSBS9ygoi8kzP'; //SSH into server to add this into the .env file since its hidden in git
 
     const onRedirectCallback = (appState) => { 
