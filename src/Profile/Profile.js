@@ -82,12 +82,21 @@ class Profile extends Component {
                     <div className="profilePhoto">
                         <img src={stockUser} alt="hero-logo" width="120" height="120"></img>
                     </div>
-
-                    <a>
+                    <div class="profilePageName">
+                        <h1>Cameron Stanley</h1>
+                        
+                    </div>
+                    <a class="profilePageText">
                         Cameron Stanley
                         UNCC Computer Science Student | Software Engineering Concentration | Java, Python, HTML5, CSS3
                         Charlotte, North Carolina, United States    
                     </a>
+                    <br></br>
+                    <label for="files" class="btn">Upload a resume!</label>
+                    <form action="/action_page.php">
+                        <input type="file" id="myFile" name="filename" />
+                        <input type="submit" value="Submit"/>
+                    </form>
                 </div>
 
                 <div className="profileAbout">
@@ -100,6 +109,7 @@ class Profile extends Component {
                     not only functional, but also secure.
                     I am also a volunteer with the Brunswick County Robotics Team and help them with their programming to run the robot they use in competitions.  
                     </a>
+                    
                 </div>
 
                 <div className="profileAbout">
